@@ -1,0 +1,19 @@
+{
+  "name": "spa_fa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjbgit/spa_fa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjbgit/spa_fa/issues"
+  },
+  "homepage": "https://github.com/sjbgit/spa_fa"
+}
