@@ -8,29 +8,51 @@
     <link href="../app/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="../app/css/app.css" rel="stylesheet"/>
     <link href="../app/modules/psFramework/psFramework.css" rel="stylesheet"/>
+    <link href="../app/modules/psMenu/psMenu.css" rel="stylesheet"/>
+
+    <script src="../app/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../app/bower_components/angularjs/angular.min.js"></script>
+
+    <script src="../app/modules/psDashboard/psDashboardModule.js"></script>
+
+
+
+    <script src="../app/modules/psFramework/psFrameworkModule.js"></script>
+    <script src="../app/modules/psFramework/psFrameworkDirective.js"></script>
+    <script src="../app/modules/psFramework/psFrameworkController.js"></script>
+
+
+    <script src="../app/modules/psMenu/psMenuModule.js"></script>
+    <script src="../app/modules/psMenu/psMenuController.js"></script>
+    <script src="../app/modules/psMenu/psMenuDirective.js"></script>
+
+    <script src="../app/modules/psMenu/psMenuItemDirective.js"></script>
+
+
+    <script src="../app/app.js"></script>
+    <script src="../app/appConfig.js"></script>
+
 
 </head>
 <body class="container-fluid">
 <ps-framework
         title="Whitewater Adventures"
         subtitle="Administrative Application"
-        icon-file="../app/images/kayak-icon-flat.png"></ps-framework>
+        icon-file="../app/images/kayak-icon-flat.png">
+    <ps-menu>
+        <ps-menu-item label="Dashboard"></ps-menu-item>
+        <ps-menu-item label="Locations"></ps-menu-item>
+        <ps-menu-item label="Raft guides"></ps-menu-item>
+    </ps-menu>
+
+</ps-framework>
 <!--
 <div ng-controller="MainController">
     {{info}}
 </div>
 -->
 
-<script src="../app/bower_components/jquery/dist/jquery.min.js"></script>
-<script src="../app/bower_components/angularjs/angular.min.js"></script>
 
-<script src="../app/modules/psDashboard/psDashboardModule.js"></script>
-<script src="../app/modules/psMenu/psMenuModule.js"></script>
-<script src="../app/modules/psFramework/psFrameworkModule.js"></script>
-<script src="../app/modules/psFramework/psFrameworkDirective.js"></script>
-<script src="../app/modules/psFramework/psFrameworkController.js"></script>
-
-<script src="../app/app.js"></script>
 </body>
 
 </html>
